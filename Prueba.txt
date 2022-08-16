@@ -2,3 +2,15 @@ Hola probando github
 1 2 3
 321 Lograr hacer git push al github
 Push logrado! tuve que utilizar un token
+
+---Como lo hice?---
+
+Tuve que ir en Github a settings, developers option, generate tokens. Marcar la opcion del repos y agregar una nota. El codigo que sale es el que se introduce en el password.
+
+Ahora simplemente volver a hacer el flujo basico de git:
+$git add .
+$git commit -m "cambio agregado"
+$git push
+introducir mi nombre de usuario, y en el password el token copiado.
+
+...exito!!!
